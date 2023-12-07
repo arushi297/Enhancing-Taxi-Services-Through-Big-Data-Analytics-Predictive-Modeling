@@ -1,0 +1,63 @@
+import sqlite3
+
+# Define the SQLite database path
+db_path = 'nyc_taxi_database.db'
+
+# Create a connection to the database
+connection = sqlite3.connect(db_path)
+
+# Create a cursor object to execute SQL queries
+cursor = connection.cursor()
+
+# Your SQL query
+sql_query = '''
+CREATE TABLE IF NOT EXISTS taxi_stats AS
+SELECT
+    tzl.Borough,
+    'FHV' AS Service,
+    AVG(ftd.base_passenger_fare + ftd.tolls + ftd.tips + ftd.bcf + ftd.sales_tax + ftd.congestion_surcharge + ftd.airport_fee) AS AvgTotalFare,
+    AVG(ftd.trip_miles) AS AvgTripDistance,
+    AVG(ftd.base_passenger_fare + ftd.tolls + ftd.tips + ftd.bcf + ftd.sales_tax + ftd.congestion_surcharge + ftd.airport_fee) / AVG(ftd.trip_miles) AS AvgFarePerUnitDistance,
+    AVG(ftd.trip_time) AS AvgTripTime,
+    AVG(ftd.trip_time) / AVG(ftd.trip_miles) AS AvgTripTimePerUnitDistance
+FROM fhvhv_tripdata ftd
+JOIN taxi_zone_lookup tzl ON ftd.PULocationID = tzl.LocationID
+GROUP BY tzl.Borough
+
+UNION ALL
+
+-- Yellow Taxi
+SELECT
+    tzl.Borough,
+    'Yellow Taxi' AS Service,
+    AVG(ytd.total_amount) AS AvgTotalFare,
+    AVG(ytd.trip_distance) AS AvgTripDistance,
+    AVG(ytd.total_amount) / AVG(ytd.trip_distance) AS AvgFarePerUnitDistance,
+    AVG(strftime('%s', ytd.tpep_dropoff_datetime) - strftime('%s', ytd.tpep_pickup_datetime)) AS AvgTripTime,
+    AVG((strftime('%s', ytd.tpep_dropoff_datetime) - strftime('%s', ytd.tpep_pickup_datetime)) / ytd.trip_distance) AS AvgTripTimePerUnitDistance
+FROM yellow_tripdata ytd
+JOIN taxi_zone_lookup tzl ON ytd.PULocationID = tzl.LocationID
+GROUP BY tzl.Borough
+
+UNION ALL
+
+-- Green Taxi
+SELECT
+    tzl.Borough,
+    'Green Taxi' AS Service,
+    AVG(gtd.total_amount) AS AvgTotalFare,
+    AVG(gtd.trip_distance) AS AvgTripDistance,
+    AVG(gtd.total_amount) / AVG(gtd.trip_distance) AS AvgFarePerUnitDistance,
+    AVG(strftime('%s', gtd.lpep_dropoff_datetime) - strftime('%s', gtd.lpep_pickup_datetime)) AS AvgTripTime,
+    AVG((strftime('%s', gtd.lpep_dropoff_datetime) - strftime('%s', gtd.lpep_pickup_datetime)) / gtd.trip_distance) AS AvgTripTimePerUnitDistance
+FROM green_tripdata gtd
+JOIN taxi_zone_lookup tzl ON gtd.PULocationID = tzl.LocationID
+GROUP BY tzl.Borough;
+'''
+
+# Execute the SQL query
+cursor.executescript(sql_query)
+
+# Commit the changes and close the connection
+connection.commit()
+connection.close()

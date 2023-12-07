@@ -1,0 +1,52 @@
+'''
+-- For yellow_tripdata
+SELECT
+    tz.LocationID,
+    tz.Borough,
+    tz.Zone,
+    'Yellow taxi' AS Service,
+    COUNT(yt.PULocationID) AS NumberOfRides
+FROM
+    taxi_zone_lookup tz
+LEFT JOIN
+    yellow_tripdata yt ON yt.PULocationID = tz.LocationID
+GROUP BY
+    tz.LocationID, tz.Borough, tz.Zone, Service
+
+UNION ALL
+
+-- For green_tripdata
+SELECT
+    tz.LocationID,
+    tz.Borough,
+    tz.Zone,
+    'Green taxi' AS Service,
+    COUNT(gt.PULocationID) AS NumberOfRides
+FROM
+    taxi_zone_lookup tz
+LEFT JOIN
+    green_tripdata gt ON gt.PULocationID = tz.LocationID
+GROUP BY
+    tz.LocationID, tz.Borough, tz.Zone, Service
+
+UNION ALL
+
+-- For fhvhv_tripdata
+SELECT
+    tz.LocationID,
+    tz.Borough,
+    tz.Zone,
+    CASE
+        WHEN ftd.Hvfhs_license_num = 'HV0002' THEN 'Juno'
+        WHEN ftd.Hvfhs_license_num = 'HV0003' THEN 'Uber'
+        WHEN ftd.Hvfhs_license_num = 'HV0004' THEN 'Via'
+        WHEN ftd.Hvfhs_license_num = 'HV0005' THEN 'Lyft'
+    END AS Service,
+    COUNT(ftd.PULocationID) AS NumberOfRides
+FROM
+    taxi_zone_lookup tz
+LEFT JOIN
+    fhvhv_tripdata ftd ON ftd.PULocationID = tz.LocationID
+GROUP BY
+    tz.LocationID, tz.Borough, tz.Zone, Service;
+'''

@@ -1,0 +1,1056 @@
+LocationID,Borough,Zone,Service,NumberOfRides
+1,EWR,Newark Airport,Yellow taxi,340
+2,Queens,Jamaica Bay,Yellow taxi,2
+3,Bronx,Allerton/Pelham Gardens,Yellow taxi,67
+4,Manhattan,Alphabet City,Yellow taxi,3520
+5,Staten Island,Arden Heights,Yellow taxi,0
+6,Staten Island,Arrochar/Fort Wadsworth,Yellow taxi,23
+7,Queens,Astoria,Yellow taxi,1588
+8,Queens,Astoria Park,Yellow taxi,22
+9,Queens,Auburndale,Yellow taxi,47
+10,Queens,Baisley Park,Yellow taxi,936
+11,Brooklyn,Bath Beach,Yellow taxi,29
+12,Manhattan,Battery Park,Yellow taxi,1308
+13,Manhattan,Battery Park City,Yellow taxi,17955
+14,Brooklyn,Bay Ridge,Yellow taxi,233
+15,Queens,Bay Terrace/Fort Totten,Yellow taxi,22
+16,Queens,Bayside,Yellow taxi,54
+17,Brooklyn,Bedford,Yellow taxi,440
+18,Bronx,Bedford Park,Yellow taxi,147
+19,Queens,Bellerose,Yellow taxi,83
+20,Bronx,Belmont,Yellow taxi,76
+21,Brooklyn,Bensonhurst East,Yellow taxi,69
+22,Brooklyn,Bensonhurst West,Yellow taxi,110
+23,Staten Island,Bloomfield/Emerson Hill,Yellow taxi,10
+24,Manhattan,Bloomingdale,Yellow taxi,6876
+25,Brooklyn,Boerum Hill,Yellow taxi,1344
+26,Brooklyn,Borough Park,Yellow taxi,92
+27,Queens,Breezy Point/Fort Tilden/Riis Beach,Yellow taxi,2
+28,Queens,Briarwood/Jamaica Hills,Yellow taxi,289
+29,Brooklyn,Brighton Beach,Yellow taxi,95
+30,Queens,Broad Channel,Yellow taxi,6
+31,Bronx,Bronx Park,Yellow taxi,11
+32,Bronx,Bronxdale,Yellow taxi,77
+33,Brooklyn,Brooklyn Heights,Yellow taxi,1736
+34,Brooklyn,Brooklyn Navy Yard,Yellow taxi,69
+35,Brooklyn,Brownsville,Yellow taxi,301
+36,Brooklyn,Bushwick North,Yellow taxi,327
+37,Brooklyn,Bushwick South,Yellow taxi,473
+38,Queens,Cambria Heights,Yellow taxi,96
+39,Brooklyn,Canarsie,Yellow taxi,373
+40,Brooklyn,Carroll Gardens,Yellow taxi,405
+41,Manhattan,Central Harlem,Yellow taxi,6733
+42,Manhattan,Central Harlem North,Yellow taxi,2673
+43,Manhattan,Central Park,Yellow taxi,42540
+44,Staten Island,Charleston/Tottenville,Yellow taxi,1
+45,Manhattan,Chinatown,Yellow taxi,4342
+46,Bronx,City Island,Yellow taxi,9
+47,Bronx,Claremont/Bathgate,Yellow taxi,111
+48,Manhattan,Clinton East,Yellow taxi,73385
+49,Brooklyn,Clinton Hill,Yellow taxi,548
+50,Manhattan,Clinton West,Yellow taxi,20255
+51,Bronx,Co-Op City,Yellow taxi,309
+52,Brooklyn,Cobble Hill,Yellow taxi,656
+53,Queens,College Point,Yellow taxi,48
+54,Brooklyn,Columbia Street,Yellow taxi,82
+55,Brooklyn,Coney Island,Yellow taxi,195
+56,Queens,Corona,Yellow taxi,211
+57,Queens,Corona,Yellow taxi,15
+58,Bronx,Country Club,Yellow taxi,6
+59,Bronx,Crotona Park,Yellow taxi,5
+60,Bronx,Crotona Park East,Yellow taxi,76
+61,Brooklyn,Crown Heights North,Yellow taxi,894
+62,Brooklyn,Crown Heights South,Yellow taxi,304
+63,Brooklyn,Cypress Hills,Yellow taxi,73
+64,Queens,Douglaston,Yellow taxi,26
+65,Brooklyn,Downtown Brooklyn/MetroTech,Yellow taxi,2260
+66,Brooklyn,DUMBO/Vinegar Hill,Yellow taxi,1087
+67,Brooklyn,Dyker Heights,Yellow taxi,53
+68,Manhattan,East Chelsea,Yellow taxi,79791
+69,Bronx,East Concourse/Concourse Village,Yellow taxi,239
+70,Queens,East Elmhurst,Yellow taxi,12466
+71,Brooklyn,East Flatbush/Farragut,Yellow taxi,215
+72,Brooklyn,East Flatbush/Remsen Village,Yellow taxi,283
+73,Queens,East Flushing,Yellow taxi,27
+74,Manhattan,East Harlem North,Yellow taxi,6980
+75,Manhattan,East Harlem South,Yellow taxi,16819
+76,Brooklyn,East New York,Yellow taxi,473
+77,Brooklyn,East New York/Pennsylvania Avenue,Yellow taxi,108
+78,Bronx,East Tremont,Yellow taxi,182
+79,Manhattan,East Village,Yellow taxi,64778
+80,Brooklyn,East Williamsburg,Yellow taxi,942
+81,Bronx,Eastchester,Yellow taxi,88
+82,Queens,Elmhurst,Yellow taxi,394
+83,Queens,Elmhurst/Maspeth,Yellow taxi,151
+84,Staten Island,Eltingville/Annadale/Prince's Bay,Yellow taxi,0
+85,Brooklyn,Erasmus,Yellow taxi,151
+86,Queens,Far Rockaway,Yellow taxi,132
+87,Manhattan,Financial District North,Yellow taxi,16891
+88,Manhattan,Financial District South,Yellow taxi,8820
+89,Brooklyn,Flatbush/Ditmas Park,Yellow taxi,504
+90,Manhattan,Flatiron,Yellow taxi,47610
+91,Brooklyn,Flatlands,Yellow taxi,259
+92,Queens,Flushing,Yellow taxi,208
+93,Queens,Flushing Meadows-Corona Park,Yellow taxi,2294
+94,Bronx,Fordham South,Yellow taxi,73
+95,Queens,Forest Hills,Yellow taxi,471
+96,Queens,Forest Park/Highland Park,Yellow taxi,8
+97,Brooklyn,Fort Greene,Yellow taxi,1187
+98,Queens,Fresh Meadows,Yellow taxi,50
+99,Staten Island,Freshkills Park,Yellow taxi,0
+100,Manhattan,Garment District,Yellow taxi,45894
+101,Queens,Glen Oaks,Yellow taxi,37
+102,Queens,Glendale,Yellow taxi,75
+103,Manhattan,Governor's Island/Ellis Island/Liberty Island,Yellow taxi,0
+104,Manhattan,Governor's Island/Ellis Island/Liberty Island,Yellow taxi,0
+105,Manhattan,Governor's Island/Ellis Island/Liberty Island,Yellow taxi,1
+106,Brooklyn,Gowanus,Yellow taxi,186
+107,Manhattan,Gramercy,Yellow taxi,57792
+108,Brooklyn,Gravesend,Yellow taxi,54
+109,Staten Island,Great Kills,Yellow taxi,1
+110,Staten Island,Great Kills Park,Yellow taxi,0
+111,Brooklyn,Green-Wood Cemetery,Yellow taxi,3
+112,Brooklyn,Greenpoint,Yellow taxi,757
+113,Manhattan,Greenwich Village North,Yellow taxi,39029
+114,Manhattan,Greenwich Village South,Yellow taxi,38966
+115,Staten Island,Grymes Hill/Clifton,Yellow taxi,1
+116,Manhattan,Hamilton Heights,Yellow taxi,2065
+117,Queens,Hammels/Arverne,Yellow taxi,123
+118,Staten Island,Heartland Village/Todt Hill,Yellow taxi,13
+119,Bronx,Highbridge,Yellow taxi,173
+120,Manhattan,Highbridge Park,Yellow taxi,15
+121,Queens,Hillcrest/Pomonok,Yellow taxi,165
+122,Queens,Hollis,Yellow taxi,79
+123,Brooklyn,Homecrest,Yellow taxi,87
+124,Queens,Howard Beach,Yellow taxi,122
+125,Manhattan,Hudson Sq,Yellow taxi,16118
+126,Bronx,Hunts Point,Yellow taxi,87
+127,Manhattan,Inwood,Yellow taxi,195
+128,Manhattan,Inwood Hill Park,Yellow taxi,18
+129,Queens,Jackson Heights,Yellow taxi,848
+130,Queens,Jamaica,Yellow taxi,539
+131,Queens,Jamaica Estates,Yellow taxi,133
+132,Queens,JFK Airport,Yellow taxi,159344
+133,Brooklyn,Kensington,Yellow taxi,128
+134,Queens,Kew Gardens,Yellow taxi,307
+135,Queens,Kew Gardens Hills,Yellow taxi,136
+136,Bronx,Kingsbridge Heights,Yellow taxi,138
+137,Manhattan,Kips Bay,Yellow taxi,29157
+138,Queens,LaGuardia Airport,Yellow taxi,100939
+139,Queens,Laurelton,Yellow taxi,113
+140,Manhattan,Lenox Hill East,Yellow taxi,53380
+141,Manhattan,Lenox Hill West,Yellow taxi,64863
+142,Manhattan,Lincoln Square East,Yellow taxi,88623
+143,Manhattan,Lincoln Square West,Yellow taxi,30447
+144,Manhattan,Little Italy/NoLiTa,Yellow taxi,27236
+145,Queens,Long Island City/Hunters Point,Yellow taxi,2901
+146,Queens,Long Island City/Queens Plaza,Yellow taxi,1375
+147,Bronx,Longwood,Yellow taxi,70
+148,Manhattan,Lower East Side,Yellow taxi,30464
+149,Brooklyn,Madison,Yellow taxi,64
+150,Brooklyn,Manhattan Beach,Yellow taxi,43
+151,Manhattan,Manhattan Valley,Yellow taxi,21928
+152,Manhattan,Manhattanville,Yellow taxi,1942
+153,Manhattan,Marble Hill,Yellow taxi,44
+154,Brooklyn,Marine Park/Floyd Bennett Field,Yellow taxi,57
+155,Brooklyn,Marine Park/Mill Basin,Yellow taxi,109
+156,Staten Island,Mariners Harbor,Yellow taxi,2
+157,Queens,Maspeth,Yellow taxi,248
+158,Manhattan,Meatpacking/West Village West,Yellow taxi,26419
+159,Bronx,Melrose South,Yellow taxi,266
+160,Queens,Middle Village,Yellow taxi,74
+161,Manhattan,Midtown Center,Yellow taxi,122412
+162,Manhattan,Midtown East,Yellow taxi,98093
+163,Manhattan,Midtown North,Yellow taxi,77142
+164,Manhattan,Midtown South,Yellow taxi,65268
+165,Brooklyn,Midwood,Yellow taxi,131
+166,Manhattan,Morningside Heights,Yellow taxi,13389
+167,Bronx,Morrisania/Melrose,Yellow taxi,169
+168,Bronx,Mott Haven/Port Morris,Yellow taxi,545
+169,Bronx,Mount Hope,Yellow taxi,172
+170,Manhattan,Murray Hill,Yellow taxi,82129
+171,Queens,Murray Hill-Queens,Yellow taxi,70
+172,Staten Island,New Dorp/Midland Beach,Yellow taxi,1
+173,Queens,North Corona,Yellow taxi,70
+174,Bronx,Norwood,Yellow taxi,127
+175,Queens,Oakland Gardens,Yellow taxi,46
+176,Staten Island,Oakwood,Yellow taxi,4
+177,Brooklyn,Ocean Hill,Yellow taxi,221
+178,Brooklyn,Ocean Parkway South,Yellow taxi,38
+179,Queens,Old Astoria,Yellow taxi,521
+180,Queens,Ozone Park,Yellow taxi,64
+181,Brooklyn,Park Slope,Yellow taxi,1117
+182,Bronx,Parkchester,Yellow taxi,163
+183,Bronx,Pelham Bay,Yellow taxi,44
+184,Bronx,Pelham Bay Park,Yellow taxi,5
+185,Bronx,Pelham Parkway,Yellow taxi,121
+186,Manhattan,Penn Station/Madison Sq West,Yellow taxi,96261
+187,Staten Island,Port Richmond,Yellow taxi,2
+188,Brooklyn,Prospect-Lefferts Gardens,Yellow taxi,521
+189,Brooklyn,Prospect Heights,Yellow taxi,395
+190,Brooklyn,Prospect Park,Yellow taxi,77
+191,Queens,Queens Village,Yellow taxi,180
+192,Queens,Queensboro Hill,Yellow taxi,54
+193,Queens,Queensbridge/Ravenswood,Yellow taxi,2157
+194,Manhattan,Randalls Island,Yellow taxi,145
+195,Brooklyn,Red Hook,Yellow taxi,554
+196,Queens,Rego Park,Yellow taxi,192
+197,Queens,Richmond Hill,Yellow taxi,372
+198,Queens,Ridgewood,Yellow taxi,153
+199,Bronx,Rikers Island,Yellow taxi,1
+200,Bronx,Riverdale/North Riverdale/Fieldston,Yellow taxi,80
+201,Queens,Rockaway Park,Yellow taxi,38
+202,Manhattan,Roosevelt Island,Yellow taxi,177
+203,Queens,Rosedale,Yellow taxi,129
+204,Staten Island,Rossville/Woodrow,Yellow taxi,3
+205,Queens,Saint Albans,Yellow taxi,293
+206,Staten Island,Saint George/New Brighton,Yellow taxi,12
+207,Queens,Saint Michaels Cemetery/Woodside,Yellow taxi,265
+208,Bronx,Schuylerville/Edgewater Park,Yellow taxi,102
+209,Manhattan,Seaport,Yellow taxi,6544
+210,Brooklyn,Sheepshead Bay,Yellow taxi,92
+211,Manhattan,SoHo,Yellow taxi,23075
+212,Bronx,Soundview/Bruckner,Yellow taxi,84
+213,Bronx,Soundview/Castle Hill,Yellow taxi,220
+214,Staten Island,South Beach/Dongan Hills,Yellow taxi,14
+215,Queens,South Jamaica,Yellow taxi,463
+216,Queens,South Ozone Park,Yellow taxi,644
+217,Brooklyn,South Williamsburg,Yellow taxi,101
+218,Queens,Springfield Gardens North,Yellow taxi,238
+219,Queens,Springfield Gardens South,Yellow taxi,346
+220,Bronx,Spuyten Duyvil/Kingsbridge,Yellow taxi,131
+221,Staten Island,Stapleton,Yellow taxi,8
+222,Brooklyn,Starrett City,Yellow taxi,142
+223,Queens,Steinway,Yellow taxi,664
+224,Manhattan,Stuy Town/Peter Cooper Village,Yellow taxi,3654
+225,Brooklyn,Stuyvesant Heights,Yellow taxi,421
+226,Queens,Sunnyside,Yellow taxi,1961
+227,Brooklyn,Sunset Park East,Yellow taxi,72
+228,Brooklyn,Sunset Park West,Yellow taxi,256
+229,Manhattan,Sutton Place/Turtle Bay North,Yellow taxi,50419
+230,Manhattan,Times Sq/Theatre District,Yellow taxi,90989
+231,Manhattan,TriBeCa/Civic Center,Yellow taxi,41897
+232,Manhattan,Two Bridges/Seward Park,Yellow taxi,3784
+233,Manhattan,UN/Turtle Bay South,Yellow taxi,33972
+234,Manhattan,Union Sq,Yellow taxi,76659
+235,Bronx,University Heights/Morris Heights,Yellow taxi,183
+236,Manhattan,Upper East Side North,Yellow taxi,118744
+237,Manhattan,Upper East Side South,Yellow taxi,133008
+238,Manhattan,Upper West Side North,Yellow taxi,54698
+239,Manhattan,Upper West Side South,Yellow taxi,76525
+240,Bronx,Van Cortlandt Park,Yellow taxi,9
+241,Bronx,Van Cortlandt Village,Yellow taxi,107
+242,Bronx,Van Nest/Morris Park,Yellow taxi,180
+243,Manhattan,Washington Heights North,Yellow taxi,481
+244,Manhattan,Washington Heights South,Yellow taxi,1778
+245,Staten Island,West Brighton,Yellow taxi,0
+246,Manhattan,West Chelsea/Hudson Yards,Yellow taxi,53731
+247,Bronx,West Concourse,Yellow taxi,330
+248,Bronx,West Farms/Bronx River,Yellow taxi,116
+249,Manhattan,West Village,Yellow taxi,64008
+250,Bronx,Westchester Village/Unionport,Yellow taxi,114
+251,Staten Island,Westerleigh,Yellow taxi,2
+252,Queens,Whitestone,Yellow taxi,41
+253,Queens,Willets Point,Yellow taxi,26
+254,Bronx,Williamsbridge/Olinville,Yellow taxi,220
+255,Brooklyn,Williamsburg (North Side),Yellow taxi,1408
+256,Brooklyn,Williamsburg (South Side),Yellow taxi,1144
+257,Brooklyn,Windsor Terrace,Yellow taxi,83
+258,Queens,Woodhaven,Yellow taxi,93
+259,Bronx,Woodlawn/Wakefield,Yellow taxi,89
+260,Queens,Woodside,Yellow taxi,612
+261,Manhattan,World Trade Center,Yellow taxi,16640
+262,Manhattan,Yorkville East,Yellow taxi,37549
+263,Manhattan,Yorkville West,Yellow taxi,51162
+264,Unknown,NV,Yellow taxi,26356
+265,Unknown,,Yellow taxi,2673
+1,EWR,Newark Airport,Green taxi,1
+2,Queens,Jamaica Bay,Green taxi,0
+3,Bronx,Allerton/Pelham Gardens,Green taxi,7
+4,Manhattan,Alphabet City,Green taxi,1
+5,Staten Island,Arden Heights,Green taxi,0
+6,Staten Island,Arrochar/Fort Wadsworth,Green taxi,0
+7,Queens,Astoria,Green taxi,1465
+8,Queens,Astoria Park,Green taxi,1
+9,Queens,Auburndale,Green taxi,15
+10,Queens,Baisley Park,Green taxi,32
+11,Brooklyn,Bath Beach,Green taxi,7
+12,Manhattan,Battery Park,Green taxi,0
+13,Manhattan,Battery Park City,Green taxi,2
+14,Brooklyn,Bay Ridge,Green taxi,29
+15,Queens,Bay Terrace/Fort Totten,Green taxi,10
+16,Queens,Bayside,Green taxi,10
+17,Brooklyn,Bedford,Green taxi,96
+18,Bronx,Bedford Park,Green taxi,27
+19,Queens,Bellerose,Green taxi,14
+20,Bronx,Belmont,Green taxi,20
+21,Brooklyn,Bensonhurst East,Green taxi,32
+22,Brooklyn,Bensonhurst West,Green taxi,19
+23,Staten Island,Bloomfield/Emerson Hill,Green taxi,0
+24,Manhattan,Bloomingdale,Green taxi,429
+25,Brooklyn,Boerum Hill,Green taxi,426
+26,Brooklyn,Borough Park,Green taxi,33
+27,Queens,Breezy Point/Fort Tilden/Riis Beach,Green taxi,0
+28,Queens,Briarwood/Jamaica Hills,Green taxi,69
+29,Brooklyn,Brighton Beach,Green taxi,37
+30,Queens,Broad Channel,Green taxi,0
+31,Bronx,Bronx Park,Green taxi,3
+32,Bronx,Bronxdale,Green taxi,11
+33,Brooklyn,Brooklyn Heights,Green taxi,620
+34,Brooklyn,Brooklyn Navy Yard,Green taxi,15
+35,Brooklyn,Brownsville,Green taxi,44
+36,Brooklyn,Bushwick North,Green taxi,81
+37,Brooklyn,Bushwick South,Green taxi,63
+38,Queens,Cambria Heights,Green taxi,7
+39,Brooklyn,Canarsie,Green taxi,42
+40,Brooklyn,Carroll Gardens,Green taxi,52
+41,Manhattan,Central Harlem,Green taxi,3128
+42,Manhattan,Central Harlem North,Green taxi,1542
+43,Manhattan,Central Park,Green taxi,2427
+44,Staten Island,Charleston/Tottenville,Green taxi,0
+45,Manhattan,Chinatown,Green taxi,2
+46,Bronx,City Island,Green taxi,2
+47,Bronx,Claremont/Bathgate,Green taxi,36
+48,Manhattan,Clinton East,Green taxi,1
+49,Brooklyn,Clinton Hill,Green taxi,108
+50,Manhattan,Clinton West,Green taxi,1
+51,Bronx,Co-Op City,Green taxi,26
+52,Brooklyn,Cobble Hill,Green taxi,129
+53,Queens,College Point,Green taxi,30
+54,Brooklyn,Columbia Street,Green taxi,25
+55,Brooklyn,Coney Island,Green taxi,260
+56,Queens,Corona,Green taxi,71
+57,Queens,Corona,Green taxi,29
+58,Bronx,Country Club,Green taxi,0
+59,Bronx,Crotona Park,Green taxi,0
+60,Bronx,Crotona Park East,Green taxi,11
+61,Brooklyn,Crown Heights North,Green taxi,161
+62,Brooklyn,Crown Heights South,Green taxi,41
+63,Brooklyn,Cypress Hills,Green taxi,19
+64,Queens,Douglaston,Green taxi,4
+65,Brooklyn,Downtown Brooklyn/MetroTech,Green taxi,1837
+66,Brooklyn,DUMBO/Vinegar Hill,Green taxi,864
+67,Brooklyn,Dyker Heights,Green taxi,7
+68,Manhattan,East Chelsea,Green taxi,3
+69,Bronx,East Concourse/Concourse Village,Green taxi,70
+70,Queens,East Elmhurst,Green taxi,67
+71,Brooklyn,East Flatbush/Farragut,Green taxi,29
+72,Brooklyn,East Flatbush/Remsen Village,Green taxi,40
+73,Queens,East Flushing,Green taxi,14
+74,Manhattan,East Harlem North,Green taxi,12775
+75,Manhattan,East Harlem South,Green taxi,8001
+76,Brooklyn,East New York,Green taxi,84
+77,Brooklyn,East New York/Pennsylvania Avenue,Green taxi,14
+78,Bronx,East Tremont,Green taxi,24
+79,Manhattan,East Village,Green taxi,1
+80,Brooklyn,East Williamsburg,Green taxi,451
+81,Bronx,Eastchester,Green taxi,9
+82,Queens,Elmhurst,Green taxi,2677
+83,Queens,Elmhurst/Maspeth,Green taxi,578
+84,Staten Island,Eltingville/Annadale/Prince's Bay,Green taxi,0
+85,Brooklyn,Erasmus,Green taxi,23
+86,Queens,Far Rockaway,Green taxi,34
+87,Manhattan,Financial District North,Green taxi,1
+88,Manhattan,Financial District South,Green taxi,3
+89,Brooklyn,Flatbush/Ditmas Park,Green taxi,74
+90,Manhattan,Flatiron,Green taxi,0
+91,Brooklyn,Flatlands,Green taxi,32
+92,Queens,Flushing,Green taxi,804
+93,Queens,Flushing Meadows-Corona Park,Green taxi,2847
+94,Bronx,Fordham South,Green taxi,14
+95,Queens,Forest Hills,Green taxi,3209
+96,Queens,Forest Park/Highland Park,Green taxi,6
+97,Brooklyn,Fort Greene,Green taxi,1676
+98,Queens,Fresh Meadows,Green taxi,8
+99,Staten Island,Freshkills Park,Green taxi,0
+100,Manhattan,Garment District,Green taxi,1
+101,Queens,Glen Oaks,Green taxi,12
+102,Queens,Glendale,Green taxi,18
+103,Manhattan,Governor's Island/Ellis Island/Liberty Island,Green taxi,0
+104,Manhattan,Governor's Island/Ellis Island/Liberty Island,Green taxi,0
+105,Manhattan,Governor's Island/Ellis Island/Liberty Island,Green taxi,0
+106,Brooklyn,Gowanus,Green taxi,22
+107,Manhattan,Gramercy,Green taxi,0
+108,Brooklyn,Gravesend,Green taxi,20
+109,Staten Island,Great Kills,Green taxi,0
+110,Staten Island,Great Kills Park,Green taxi,0
+111,Brooklyn,Green-Wood Cemetery,Green taxi,0
+112,Brooklyn,Greenpoint,Green taxi,138
+113,Manhattan,Greenwich Village North,Green taxi,0
+114,Manhattan,Greenwich Village South,Green taxi,0
+115,Staten Island,Grymes Hill/Clifton,Green taxi,0
+116,Manhattan,Hamilton Heights,Green taxi,581
+117,Queens,Hammels/Arverne,Green taxi,23
+118,Staten Island,Heartland Village/Todt Hill,Green taxi,0
+119,Bronx,Highbridge,Green taxi,89
+120,Manhattan,Highbridge Park,Green taxi,5
+121,Queens,Hillcrest/Pomonok,Green taxi,52
+122,Queens,Hollis,Green taxi,25
+123,Brooklyn,Homecrest,Green taxi,31
+124,Queens,Howard Beach,Green taxi,9
+125,Manhattan,Hudson Sq,Green taxi,5
+126,Bronx,Hunts Point,Green taxi,22
+127,Manhattan,Inwood,Green taxi,64
+128,Manhattan,Inwood Hill Park,Green taxi,4
+129,Queens,Jackson Heights,Green taxi,1251
+130,Queens,Jamaica,Green taxi,1582
+131,Queens,Jamaica Estates,Green taxi,30
+132,Queens,JFK Airport,Green taxi,32
+133,Brooklyn,Kensington,Green taxi,14
+134,Queens,Kew Gardens,Green taxi,710
+135,Queens,Kew Gardens Hills,Green taxi,47
+136,Bronx,Kingsbridge Heights,Green taxi,31
+137,Manhattan,Kips Bay,Green taxi,5
+138,Queens,LaGuardia Airport,Green taxi,49
+139,Queens,Laurelton,Green taxi,11
+140,Manhattan,Lenox Hill East,Green taxi,5
+141,Manhattan,Lenox Hill West,Green taxi,1
+142,Manhattan,Lincoln Square East,Green taxi,2
+143,Manhattan,Lincoln Square West,Green taxi,1
+144,Manhattan,Little Italy/NoLiTa,Green taxi,0
+145,Queens,Long Island City/Hunters Point,Green taxi,218
+146,Queens,Long Island City/Queens Plaza,Green taxi,154
+147,Bronx,Longwood,Green taxi,21
+148,Manhattan,Lower East Side,Green taxi,1
+149,Brooklyn,Madison,Green taxi,18
+150,Brooklyn,Manhattan Beach,Green taxi,30
+151,Manhattan,Manhattan Valley,Green taxi,4
+152,Manhattan,Manhattanville,Green taxi,372
+153,Manhattan,Marble Hill,Green taxi,11
+154,Brooklyn,Marine Park/Floyd Bennett Field,Green taxi,3
+155,Brooklyn,Marine Park/Mill Basin,Green taxi,20
+156,Staten Island,Mariners Harbor,Green taxi,1
+157,Queens,Maspeth,Green taxi,72
+158,Manhattan,Meatpacking/West Village West,Green taxi,0
+159,Bronx,Melrose South,Green taxi,128
+160,Queens,Middle Village,Green taxi,17
+161,Manhattan,Midtown Center,Green taxi,2
+162,Manhattan,Midtown East,Green taxi,2
+163,Manhattan,Midtown North,Green taxi,0
+164,Manhattan,Midtown South,Green taxi,0
+165,Brooklyn,Midwood,Green taxi,21
+166,Manhattan,Morningside Heights,Green taxi,3318
+167,Bronx,Morrisania/Melrose,Green taxi,32
+168,Bronx,Mott Haven/Port Morris,Green taxi,124
+169,Bronx,Mount Hope,Green taxi,49
+170,Manhattan,Murray Hill,Green taxi,1
+171,Queens,Murray Hill-Queens,Green taxi,23
+172,Staten Island,New Dorp/Midland Beach,Green taxi,1
+173,Queens,North Corona,Green taxi,106
+174,Bronx,Norwood,Green taxi,30
+175,Queens,Oakland Gardens,Green taxi,11
+176,Staten Island,Oakwood,Green taxi,0
+177,Brooklyn,Ocean Hill,Green taxi,25
+178,Brooklyn,Ocean Parkway South,Green taxi,6
+179,Queens,Old Astoria,Green taxi,218
+180,Queens,Ozone Park,Green taxi,8
+181,Brooklyn,Park Slope,Green taxi,266
+182,Bronx,Parkchester,Green taxi,22
+183,Bronx,Pelham Bay,Green taxi,7
+184,Bronx,Pelham Bay Park,Green taxi,1
+185,Bronx,Pelham Parkway,Green taxi,14
+186,Manhattan,Penn Station/Madison Sq West,Green taxi,0
+187,Staten Island,Port Richmond,Green taxi,0
+188,Brooklyn,Prospect-Lefferts Gardens,Green taxi,111
+189,Brooklyn,Prospect Heights,Green taxi,55
+190,Brooklyn,Prospect Park,Green taxi,16
+191,Queens,Queens Village,Green taxi,58
+192,Queens,Queensboro Hill,Green taxi,23
+193,Queens,Queensbridge/Ravenswood,Green taxi,433
+194,Manhattan,Randalls Island,Green taxi,11
+195,Brooklyn,Red Hook,Green taxi,317
+196,Queens,Rego Park,Green taxi,330
+197,Queens,Richmond Hill,Green taxi,63
+198,Queens,Ridgewood,Green taxi,37
+199,Bronx,Rikers Island,Green taxi,0
+200,Bronx,Riverdale/North Riverdale/Fieldston,Green taxi,12
+201,Queens,Rockaway Park,Green taxi,3
+202,Manhattan,Roosevelt Island,Green taxi,25
+203,Queens,Rosedale,Green taxi,7
+204,Staten Island,Rossville/Woodrow,Green taxi,0
+205,Queens,Saint Albans,Green taxi,14
+206,Staten Island,Saint George/New Brighton,Green taxi,0
+207,Queens,Saint Michaels Cemetery/Woodside,Green taxi,25
+208,Bronx,Schuylerville/Edgewater Park,Green taxi,9
+209,Manhattan,Seaport,Green taxi,1
+210,Brooklyn,Sheepshead Bay,Green taxi,265
+211,Manhattan,SoHo,Green taxi,0
+212,Bronx,Soundview/Bruckner,Green taxi,43
+213,Bronx,Soundview/Castle Hill,Green taxi,19
+214,Staten Island,South Beach/Dongan Hills,Green taxi,0
+215,Queens,South Jamaica,Green taxi,54
+216,Queens,South Ozone Park,Green taxi,68
+217,Brooklyn,South Williamsburg,Green taxi,19
+218,Queens,Springfield Gardens North,Green taxi,12
+219,Queens,Springfield Gardens South,Green taxi,15
+220,Bronx,Spuyten Duyvil/Kingsbridge,Green taxi,22
+221,Staten Island,Stapleton,Green taxi,0
+222,Brooklyn,Starrett City,Green taxi,14
+223,Queens,Steinway,Green taxi,380
+224,Manhattan,Stuy Town/Peter Cooper Village,Green taxi,0
+225,Brooklyn,Stuyvesant Heights,Green taxi,78
+226,Queens,Sunnyside,Green taxi,286
+227,Brooklyn,Sunset Park East,Green taxi,12
+228,Brooklyn,Sunset Park West,Green taxi,37
+229,Manhattan,Sutton Place/Turtle Bay North,Green taxi,1
+230,Manhattan,Times Sq/Theatre District,Green taxi,4
+231,Manhattan,TriBeCa/Civic Center,Green taxi,4
+232,Manhattan,Two Bridges/Seward Park,Green taxi,0
+233,Manhattan,UN/Turtle Bay South,Green taxi,1
+234,Manhattan,Union Sq,Green taxi,2
+235,Bronx,University Heights/Morris Heights,Green taxi,32
+236,Manhattan,Upper East Side North,Green taxi,432
+237,Manhattan,Upper East Side South,Green taxi,3
+238,Manhattan,Upper West Side North,Green taxi,3
+239,Manhattan,Upper West Side South,Green taxi,4
+240,Bronx,Van Cortlandt Park,Green taxi,3
+241,Bronx,Van Cortlandt Village,Green taxi,25
+242,Bronx,Van Nest/Morris Park,Green taxi,47
+243,Manhattan,Washington Heights North,Green taxi,204
+244,Manhattan,Washington Heights South,Green taxi,1530
+245,Staten Island,West Brighton,Green taxi,0
+246,Manhattan,West Chelsea/Hudson Yards,Green taxi,1
+247,Bronx,West Concourse,Green taxi,182
+248,Bronx,West Farms/Bronx River,Green taxi,11
+249,Manhattan,West Village,Green taxi,0
+250,Bronx,Westchester Village/Unionport,Green taxi,6
+251,Staten Island,Westerleigh,Green taxi,0
+252,Queens,Whitestone,Green taxi,8
+253,Queens,Willets Point,Green taxi,89
+254,Bronx,Williamsbridge/Olinville,Green taxi,19
+255,Brooklyn,Williamsburg (North Side),Green taxi,190
+256,Brooklyn,Williamsburg (South Side),Green taxi,118
+257,Brooklyn,Windsor Terrace,Green taxi,9
+258,Queens,Woodhaven,Green taxi,31
+259,Bronx,Woodlawn/Wakefield,Green taxi,11
+260,Queens,Woodside,Green taxi,1056
+261,Manhattan,World Trade Center,Green taxi,0
+262,Manhattan,Yorkville East,Green taxi,9
+263,Manhattan,Yorkville West,Green taxi,73
+264,Unknown,NV,Green taxi,133
+265,Unknown,,Green taxi,58
+1,EWR,Newark Airport,Uber,6
+2,Queens,Jamaica Bay,Lyft,19
+2,Queens,Jamaica Bay,Uber,27
+3,Bronx,Allerton/Pelham Gardens,Lyft,11033
+3,Bronx,Allerton/Pelham Gardens,Uber,28702
+4,Manhattan,Alphabet City,Lyft,19121
+4,Manhattan,Alphabet City,Uber,45324
+5,Staten Island,Arden Heights,Lyft,1520
+5,Staten Island,Arden Heights,Uber,3646
+6,Staten Island,Arrochar/Fort Wadsworth,Lyft,3391
+6,Staten Island,Arrochar/Fort Wadsworth,Uber,6289
+7,Queens,Astoria,Lyft,59049
+7,Queens,Astoria,Uber,128693
+8,Queens,Astoria Park,Lyft,262
+8,Queens,Astoria Park,Uber,562
+9,Queens,Auburndale,Lyft,4587
+9,Queens,Auburndale,Uber,12231
+10,Queens,Baisley Park,Lyft,21534
+10,Queens,Baisley Park,Uber,45052
+11,Brooklyn,Bath Beach,Lyft,5410
+11,Brooklyn,Bath Beach,Uber,15028
+12,Manhattan,Battery Park,Lyft,756
+12,Manhattan,Battery Park,Uber,2324
+13,Manhattan,Battery Park City,Lyft,21926
+13,Manhattan,Battery Park City,Uber,68169
+14,Brooklyn,Bay Ridge,Lyft,27071
+14,Brooklyn,Bay Ridge,Uber,69544
+15,Queens,Bay Terrace/Fort Totten,Lyft,3877
+15,Queens,Bay Terrace/Fort Totten,Uber,9385
+16,Queens,Bayside,Lyft,10397
+16,Queens,Bayside,Uber,26135
+17,Brooklyn,Bedford,Lyft,49170
+17,Brooklyn,Bedford,Uber,111246
+18,Bronx,Bedford Park,Lyft,19380
+18,Bronx,Bedford Park,Uber,63355
+19,Queens,Bellerose,Lyft,4720
+19,Queens,Bellerose,Uber,12106
+20,Bronx,Belmont,Lyft,13199
+20,Bronx,Belmont,Uber,41202
+21,Brooklyn,Bensonhurst East,Lyft,12392
+21,Brooklyn,Bensonhurst East,Uber,35196
+22,Brooklyn,Bensonhurst West,Lyft,16523
+22,Brooklyn,Bensonhurst West,Uber,47514
+23,Staten Island,Bloomfield/Emerson Hill,Lyft,10318
+23,Staten Island,Bloomfield/Emerson Hill,Uber,19933
+24,Manhattan,Bloomingdale,Lyft,8475
+24,Manhattan,Bloomingdale,Uber,19657
+25,Brooklyn,Boerum Hill,Lyft,35509
+25,Brooklyn,Boerum Hill,Uber,77789
+26,Brooklyn,Borough Park,Lyft,26202
+26,Brooklyn,Borough Park,Uber,75000
+27,Queens,Breezy Point/Fort Tilden/Riis Beach,Lyft,662
+27,Queens,Breezy Point/Fort Tilden/Riis Beach,Uber,1238
+28,Queens,Briarwood/Jamaica Hills,Lyft,13551
+28,Queens,Briarwood/Jamaica Hills,Uber,33522
+29,Brooklyn,Brighton Beach,Lyft,9393
+29,Brooklyn,Brighton Beach,Uber,25528
+30,Queens,Broad Channel,Lyft,261
+30,Queens,Broad Channel,Uber,713
+31,Bronx,Bronx Park,Lyft,1357
+31,Bronx,Bronx Park,Uber,5099
+32,Bronx,Bronxdale,Lyft,11385
+32,Bronx,Bronxdale,Uber,32505
+33,Brooklyn,Brooklyn Heights,Lyft,29196
+33,Brooklyn,Brooklyn Heights,Uber,64226
+34,Brooklyn,Brooklyn Navy Yard,Lyft,5174
+34,Brooklyn,Brooklyn Navy Yard,Uber,10985
+35,Brooklyn,Brownsville,Lyft,32083
+35,Brooklyn,Brownsville,Uber,80393
+36,Brooklyn,Bushwick North,Lyft,48425
+36,Brooklyn,Bushwick North,Uber,106264
+37,Brooklyn,Bushwick South,Lyft,62347
+37,Brooklyn,Bushwick South,Uber,149278
+38,Queens,Cambria Heights,Lyft,6564
+38,Queens,Cambria Heights,Uber,15294
+39,Brooklyn,Canarsie,Lyft,38719
+39,Brooklyn,Canarsie,Uber,99823
+40,Brooklyn,Carroll Gardens,Lyft,15083
+40,Brooklyn,Carroll Gardens,Uber,29621
+41,Manhattan,Central Harlem,Lyft,39158
+41,Manhattan,Central Harlem,Uber,85343
+42,Manhattan,Central Harlem North,Lyft,53223
+42,Manhattan,Central Harlem North,Uber,115203
+43,Manhattan,Central Park,Lyft,6570
+43,Manhattan,Central Park,Uber,25535
+44,Staten Island,Charleston/Tottenville,Lyft,1888
+44,Staten Island,Charleston/Tottenville,Uber,5101
+45,Manhattan,Chinatown,Lyft,17234
+45,Manhattan,Chinatown,Uber,37281
+46,Bronx,City Island,Lyft,992
+46,Bronx,City Island,Uber,2486
+47,Bronx,Claremont/Bathgate,Lyft,15285
+47,Bronx,Claremont/Bathgate,Uber,44722
+48,Manhattan,Clinton East,Lyft,58092
+48,Manhattan,Clinton East,Uber,145103
+49,Brooklyn,Clinton Hill,Lyft,37539
+49,Brooklyn,Clinton Hill,Uber,78045
+50,Manhattan,Clinton West,Lyft,39245
+50,Manhattan,Clinton West,Uber,90956
+51,Bronx,Co-Op City,Lyft,18235
+51,Bronx,Co-Op City,Uber,50693
+52,Brooklyn,Cobble Hill,Lyft,9761
+52,Brooklyn,Cobble Hill,Uber,19784
+53,Queens,College Point,Lyft,7139
+53,Queens,College Point,Uber,20468
+54,Brooklyn,Columbia Street,Lyft,3754
+54,Brooklyn,Columbia Street,Uber,6679
+55,Brooklyn,Coney Island,Lyft,13908
+55,Brooklyn,Coney Island,Uber,36111
+56,Queens,Corona,Lyft,16154
+56,Queens,Corona,Uber,40510
+57,Queens,Corona,Lyft,1468
+57,Queens,Corona,Uber,3496
+58,Bronx,Country Club,Lyft,1576
+58,Bronx,Country Club,Uber,4345
+59,Bronx,Crotona Park,Lyft,492
+59,Bronx,Crotona Park,Uber,1741
+60,Bronx,Crotona Park East,Lyft,10577
+60,Bronx,Crotona Park East,Uber,29625
+61,Brooklyn,Crown Heights North,Lyft,77700
+61,Brooklyn,Crown Heights North,Uber,176090
+62,Brooklyn,Crown Heights South,Lyft,20622
+62,Brooklyn,Crown Heights South,Uber,50095
+63,Brooklyn,Cypress Hills,Lyft,15135
+63,Brooklyn,Cypress Hills,Uber,44057
+64,Queens,Douglaston,Lyft,3306
+64,Queens,Douglaston,Uber,8881
+65,Brooklyn,Downtown Brooklyn/MetroTech,Lyft,30568
+65,Brooklyn,Downtown Brooklyn/MetroTech,Uber,67041
+66,Brooklyn,DUMBO/Vinegar Hill,Lyft,22505
+66,Brooklyn,DUMBO/Vinegar Hill,Uber,51067
+67,Brooklyn,Dyker Heights,Lyft,7918
+67,Brooklyn,Dyker Heights,Uber,23285
+68,Manhattan,East Chelsea,Lyft,65124
+68,Manhattan,East Chelsea,Uber,174093
+69,Bronx,East Concourse/Concourse Village,Lyft,21782
+69,Bronx,East Concourse/Concourse Village,Uber,68205
+70,Queens,East Elmhurst,Lyft,14573
+70,Queens,East Elmhurst,Uber,32027
+71,Brooklyn,East Flatbush/Farragut,Lyft,22085
+71,Brooklyn,East Flatbush/Farragut,Uber,60871
+72,Brooklyn,East Flatbush/Remsen Village,Lyft,26009
+72,Brooklyn,East Flatbush/Remsen Village,Uber,71510
+73,Queens,East Flushing,Lyft,4831
+73,Queens,East Flushing,Uber,14625
+74,Manhattan,East Harlem North,Lyft,43160
+74,Manhattan,East Harlem North,Uber,96639
+75,Manhattan,East Harlem South,Lyft,36330
+75,Manhattan,East Harlem South,Uber,87654
+76,Brooklyn,East New York,Lyft,60670
+76,Brooklyn,East New York,Uber,144707
+77,Brooklyn,East New York/Pennsylvania Avenue,Lyft,15174
+77,Brooklyn,East New York/Pennsylvania Avenue,Uber,38605
+78,Bronx,East Tremont,Lyft,20219
+78,Bronx,East Tremont,Uber,58047
+79,Manhattan,East Village,Lyft,80197
+79,Manhattan,East Village,Uber,201691
+80,Brooklyn,East Williamsburg,Lyft,56697
+80,Brooklyn,East Williamsburg,Uber,112033
+81,Bronx,Eastchester,Lyft,14030
+81,Bronx,Eastchester,Uber,36105
+82,Queens,Elmhurst,Lyft,34628
+82,Queens,Elmhurst,Uber,95949
+83,Queens,Elmhurst/Maspeth,Lyft,11887
+83,Queens,Elmhurst/Maspeth,Uber,29990
+84,Staten Island,Eltingville/Annadale/Prince's Bay,Lyft,2258
+84,Staten Island,Eltingville/Annadale/Prince's Bay,Uber,5862
+85,Brooklyn,Erasmus,Lyft,16987
+85,Brooklyn,Erasmus,Uber,44721
+86,Queens,Far Rockaway,Lyft,11039
+86,Queens,Far Rockaway,Uber,25610
+87,Manhattan,Financial District North,Lyft,36665
+87,Manhattan,Financial District North,Uber,96394
+88,Manhattan,Financial District South,Lyft,14298
+88,Manhattan,Financial District South,Uber,40649
+89,Brooklyn,Flatbush/Ditmas Park,Lyft,44073
+89,Brooklyn,Flatbush/Ditmas Park,Uber,111201
+90,Manhattan,Flatiron,Lyft,37103
+90,Manhattan,Flatiron,Uber,111801
+91,Brooklyn,Flatlands,Lyft,24779
+91,Brooklyn,Flatlands,Uber,66555
+92,Queens,Flushing,Lyft,27446
+92,Queens,Flushing,Uber,75863
+93,Queens,Flushing Meadows-Corona Park,Lyft,11031
+93,Queens,Flushing Meadows-Corona Park,Uber,25253
+94,Bronx,Fordham South,Lyft,8697
+94,Bronx,Fordham South,Uber,28954
+95,Queens,Forest Hills,Lyft,38870
+95,Queens,Forest Hills,Uber,87634
+96,Queens,Forest Park/Highland Park,Lyft,729
+96,Queens,Forest Park/Highland Park,Uber,1953
+97,Brooklyn,Fort Greene,Lyft,38735
+97,Brooklyn,Fort Greene,Uber,80176
+98,Queens,Fresh Meadows,Lyft,4871
+98,Queens,Fresh Meadows,Uber,12171
+99,Staten Island,Freshkills Park,Lyft,109
+99,Staten Island,Freshkills Park,Uber,241
+100,Manhattan,Garment District,Lyft,30480
+100,Manhattan,Garment District,Uber,91845
+101,Queens,Glen Oaks,Lyft,4731
+101,Queens,Glen Oaks,Uber,11971
+102,Queens,Glendale,Lyft,12425
+102,Queens,Glendale,Uber,31377
+103,Manhattan,Governor's Island/Ellis Island/Liberty Island,,0
+104,Manhattan,Governor's Island/Ellis Island/Liberty Island,,0
+105,Manhattan,Governor's Island/Ellis Island/Liberty Island,Lyft,2
+105,Manhattan,Governor's Island/Ellis Island/Liberty Island,Uber,1
+106,Brooklyn,Gowanus,Lyft,12729
+106,Brooklyn,Gowanus,Uber,26123
+107,Manhattan,Gramercy,Lyft,44380
+107,Manhattan,Gramercy,Uber,123916
+108,Brooklyn,Gravesend,Lyft,6876
+108,Brooklyn,Gravesend,Uber,18738
+109,Staten Island,Great Kills,Lyft,3440
+109,Staten Island,Great Kills,Uber,8481
+110,Staten Island,Great Kills Park,Lyft,9
+110,Staten Island,Great Kills Park,Uber,27
+111,Brooklyn,Green-Wood Cemetery,Lyft,257
+111,Brooklyn,Green-Wood Cemetery,Uber,527
+112,Brooklyn,Greenpoint,Lyft,58896
+112,Brooklyn,Greenpoint,Uber,116077
+113,Manhattan,Greenwich Village North,Lyft,32881
+113,Manhattan,Greenwich Village North,Uber,99890
+114,Manhattan,Greenwich Village South,Lyft,37463
+114,Manhattan,Greenwich Village South,Uber,105062
+115,Staten Island,Grymes Hill/Clifton,Lyft,5222
+115,Staten Island,Grymes Hill/Clifton,Uber,10061
+116,Manhattan,Hamilton Heights,Lyft,26065
+116,Manhattan,Hamilton Heights,Uber,59772
+117,Queens,Hammels/Arverne,Lyft,9384
+117,Queens,Hammels/Arverne,Uber,19624
+118,Staten Island,Heartland Village/Todt Hill,Lyft,6135
+118,Staten Island,Heartland Village/Todt Hill,Uber,12844
+119,Bronx,Highbridge,Lyft,15540
+119,Bronx,Highbridge,Uber,44523
+120,Manhattan,Highbridge Park,Lyft,450
+120,Manhattan,Highbridge Park,Uber,1590
+121,Queens,Hillcrest/Pomonok,Lyft,12972
+121,Queens,Hillcrest/Pomonok,Uber,31555
+122,Queens,Hollis,Lyft,6934
+122,Queens,Hollis,Uber,15243
+123,Brooklyn,Homecrest,Lyft,12321
+123,Brooklyn,Homecrest,Uber,39201
+124,Queens,Howard Beach,Lyft,7740
+124,Queens,Howard Beach,Uber,19844
+125,Manhattan,Hudson Sq,Lyft,17879
+125,Manhattan,Hudson Sq,Uber,60276
+126,Bronx,Hunts Point,Lyft,15284
+126,Bronx,Hunts Point,Uber,40751
+127,Manhattan,Inwood,Lyft,17687
+127,Manhattan,Inwood,Uber,49086
+128,Manhattan,Inwood Hill Park,Lyft,1550
+128,Manhattan,Inwood Hill Park,Uber,3731
+129,Queens,Jackson Heights,Lyft,44068
+129,Queens,Jackson Heights,Uber,105738
+130,Queens,Jamaica,Lyft,42577
+130,Queens,Jamaica,Uber,101230
+131,Queens,Jamaica Estates,Lyft,8687
+131,Queens,Jamaica Estates,Uber,21867
+132,Queens,JFK Airport,Lyft,101597
+132,Queens,JFK Airport,Uber,293468
+133,Brooklyn,Kensington,Lyft,11284
+133,Brooklyn,Kensington,Uber,25825
+134,Queens,Kew Gardens,Lyft,12716
+134,Queens,Kew Gardens,Uber,29510
+135,Queens,Kew Gardens Hills,Lyft,9961
+135,Queens,Kew Gardens Hills,Uber,25243
+136,Bronx,Kingsbridge Heights,Lyft,11517
+136,Bronx,Kingsbridge Heights,Uber,35844
+137,Manhattan,Kips Bay,Lyft,33414
+137,Manhattan,Kips Bay,Uber,79929
+138,Queens,LaGuardia Airport,Lyft,112658
+138,Queens,LaGuardia Airport,Uber,269626
+139,Queens,Laurelton,Lyft,11192
+139,Queens,Laurelton,Uber,24213
+140,Manhattan,Lenox Hill East,Lyft,36500
+140,Manhattan,Lenox Hill East,Uber,79645
+141,Manhattan,Lenox Hill West,Lyft,35220
+141,Manhattan,Lenox Hill West,Uber,96531
+142,Manhattan,Lincoln Square East,Lyft,35790
+142,Manhattan,Lincoln Square East,Uber,104545
+143,Manhattan,Lincoln Square West,Lyft,28620
+143,Manhattan,Lincoln Square West,Uber,71557
+144,Manhattan,Little Italy/NoLiTa,Lyft,41821
+144,Manhattan,Little Italy/NoLiTa,Uber,117492
+145,Queens,Long Island City/Hunters Point,Lyft,52308
+145,Queens,Long Island City/Hunters Point,Uber,113557
+146,Queens,Long Island City/Queens Plaza,Lyft,15438
+146,Queens,Long Island City/Queens Plaza,Uber,35752
+147,Bronx,Longwood,Lyft,8782
+147,Bronx,Longwood,Uber,28875
+148,Manhattan,Lower East Side,Lyft,68719
+148,Manhattan,Lower East Side,Uber,160143
+149,Brooklyn,Madison,Lyft,10315
+149,Brooklyn,Madison,Uber,33035
+150,Brooklyn,Manhattan Beach,Lyft,5269
+150,Brooklyn,Manhattan Beach,Uber,14696
+151,Manhattan,Manhattan Valley,Lyft,18089
+151,Manhattan,Manhattan Valley,Uber,42283
+152,Manhattan,Manhattanville,Lyft,14070
+152,Manhattan,Manhattanville,Uber,31863
+153,Manhattan,Marble Hill,Lyft,4468
+153,Manhattan,Marble Hill,Uber,13047
+154,Brooklyn,Marine Park/Floyd Bennett Field,Lyft,429
+154,Brooklyn,Marine Park/Floyd Bennett Field,Uber,1423
+155,Brooklyn,Marine Park/Mill Basin,Lyft,12496
+155,Brooklyn,Marine Park/Mill Basin,Uber,39273
+156,Staten Island,Mariners Harbor,Lyft,9354
+156,Staten Island,Mariners Harbor,Uber,15535
+157,Queens,Maspeth,Lyft,20228
+157,Queens,Maspeth,Uber,40945
+158,Manhattan,Meatpacking/West Village West,Lyft,33675
+158,Manhattan,Meatpacking/West Village West,Uber,102203
+159,Bronx,Melrose South,Lyft,20381
+159,Bronx,Melrose South,Uber,60817
+160,Queens,Middle Village,Lyft,11068
+160,Queens,Middle Village,Uber,28885
+161,Manhattan,Midtown Center,Lyft,50105
+161,Manhattan,Midtown Center,Uber,193686
+162,Manhattan,Midtown East,Lyft,35883
+162,Manhattan,Midtown East,Uber,126978
+163,Manhattan,Midtown North,Lyft,38573
+163,Manhattan,Midtown North,Uber,137850
+164,Manhattan,Midtown South,Lyft,58231
+164,Manhattan,Midtown South,Uber,172812
+165,Brooklyn,Midwood,Lyft,14060
+165,Brooklyn,Midwood,Uber,42308
+166,Manhattan,Morningside Heights,Lyft,26643
+166,Manhattan,Morningside Heights,Uber,64584
+167,Bronx,Morrisania/Melrose,Lyft,15837
+167,Bronx,Morrisania/Melrose,Uber,50769
+168,Bronx,Mott Haven/Port Morris,Lyft,29710
+168,Bronx,Mott Haven/Port Morris,Uber,81845
+169,Bronx,Mount Hope,Lyft,19155
+169,Bronx,Mount Hope,Uber,65267
+170,Manhattan,Murray Hill,Lyft,50412
+170,Manhattan,Murray Hill,Uber,137947
+171,Queens,Murray Hill-Queens,Lyft,10007
+171,Queens,Murray Hill-Queens,Uber,27872
+172,Staten Island,New Dorp/Midland Beach,Lyft,3196
+172,Staten Island,New Dorp/Midland Beach,Uber,7387
+173,Queens,North Corona,Lyft,12862
+173,Queens,North Corona,Uber,33620
+174,Bronx,Norwood,Lyft,18561
+174,Bronx,Norwood,Uber,57753
+175,Queens,Oakland Gardens,Lyft,4378
+175,Queens,Oakland Gardens,Uber,11039
+176,Staten Island,Oakwood,Lyft,1817
+176,Staten Island,Oakwood,Uber,4326
+177,Brooklyn,Ocean Hill,Lyft,23617
+177,Brooklyn,Ocean Hill,Uber,57390
+178,Brooklyn,Ocean Parkway South,Lyft,4718
+178,Brooklyn,Ocean Parkway South,Uber,14924
+179,Queens,Old Astoria,Lyft,20992
+179,Queens,Old Astoria,Uber,46038
+180,Queens,Ozone Park,Lyft,8639
+180,Queens,Ozone Park,Uber,23181
+181,Brooklyn,Park Slope,Lyft,61109
+181,Brooklyn,Park Slope,Uber,121635
+182,Bronx,Parkchester,Lyft,11997
+182,Bronx,Parkchester,Uber,35576
+183,Bronx,Pelham Bay,Lyft,6551
+183,Bronx,Pelham Bay,Uber,17555
+184,Bronx,Pelham Bay Park,Lyft,1090
+184,Bronx,Pelham Bay Park,Uber,3302
+185,Bronx,Pelham Parkway,Lyft,14753
+185,Bronx,Pelham Parkway,Uber,41763
+186,Manhattan,Penn Station/Madison Sq West,Lyft,37362
+186,Manhattan,Penn Station/Madison Sq West,Uber,107303
+187,Staten Island,Port Richmond,Lyft,4549
+187,Staten Island,Port Richmond,Uber,8412
+188,Brooklyn,Prospect-Lefferts Gardens,Lyft,40883
+188,Brooklyn,Prospect-Lefferts Gardens,Uber,104756
+189,Brooklyn,Prospect Heights,Lyft,23373
+189,Brooklyn,Prospect Heights,Uber,45050
+190,Brooklyn,Prospect Park,Lyft,3844
+190,Brooklyn,Prospect Park,Uber,10036
+191,Queens,Queens Village,Lyft,16009
+191,Queens,Queens Village,Uber,38032
+192,Queens,Queensboro Hill,Lyft,7647
+192,Queens,Queensboro Hill,Uber,17444
+193,Queens,Queensbridge/Ravenswood,Lyft,10035
+193,Queens,Queensbridge/Ravenswood,Uber,20462
+194,Manhattan,Randalls Island,Lyft,1724
+194,Manhattan,Randalls Island,Uber,2886
+195,Brooklyn,Red Hook,Lyft,12195
+195,Brooklyn,Red Hook,Uber,25848
+196,Queens,Rego Park,Lyft,13938
+196,Queens,Rego Park,Uber,33478
+197,Queens,Richmond Hill,Lyft,24345
+197,Queens,Richmond Hill,Uber,57928
+198,Queens,Ridgewood,Lyft,34364
+198,Queens,Ridgewood,Uber,82020
+199,Bronx,Rikers Island,Lyft,4
+200,Bronx,Riverdale/North Riverdale/Fieldston,Lyft,10279
+200,Bronx,Riverdale/North Riverdale/Fieldston,Uber,27781
+201,Queens,Rockaway Park,Lyft,3534
+201,Queens,Rockaway Park,Uber,9683
+202,Manhattan,Roosevelt Island,Lyft,5608
+202,Manhattan,Roosevelt Island,Uber,10682
+203,Queens,Rosedale,Lyft,11275
+203,Queens,Rosedale,Uber,23573
+204,Staten Island,Rossville/Woodrow,Lyft,1288
+204,Staten Island,Rossville/Woodrow,Uber,3624
+205,Queens,Saint Albans,Lyft,25684
+205,Queens,Saint Albans,Uber,52214
+206,Staten Island,Saint George/New Brighton,Lyft,12973
+206,Staten Island,Saint George/New Brighton,Uber,25497
+207,Queens,Saint Michaels Cemetery/Woodside,Lyft,2696
+207,Queens,Saint Michaels Cemetery/Woodside,Uber,613
+208,Bronx,Schuylerville/Edgewater Park,Lyft,15226
+208,Bronx,Schuylerville/Edgewater Park,Uber,43831
+209,Manhattan,Seaport,Lyft,14532
+209,Manhattan,Seaport,Uber,37230
+210,Brooklyn,Sheepshead Bay,Lyft,15373
+210,Brooklyn,Sheepshead Bay,Uber,40343
+211,Manhattan,SoHo,Lyft,30094
+211,Manhattan,SoHo,Uber,101357
+212,Bronx,Soundview/Bruckner,Lyft,12098
+212,Bronx,Soundview/Bruckner,Uber,34058
+213,Bronx,Soundview/Castle Hill,Lyft,22975
+213,Bronx,Soundview/Castle Hill,Uber,61613
+214,Staten Island,South Beach/Dongan Hills,Lyft,4859
+214,Staten Island,South Beach/Dongan Hills,Uber,10174
+215,Queens,South Jamaica,Lyft,20426
+215,Queens,South Jamaica,Uber,39882
+216,Queens,South Ozone Park,Lyft,35858
+216,Queens,South Ozone Park,Uber,90408
+217,Brooklyn,South Williamsburg,Lyft,8755
+217,Brooklyn,South Williamsburg,Uber,22748
+218,Queens,Springfield Gardens North,Lyft,13327
+218,Queens,Springfield Gardens North,Uber,27876
+219,Queens,Springfield Gardens South,Lyft,11698
+219,Queens,Springfield Gardens South,Uber,24507
+220,Bronx,Spuyten Duyvil/Kingsbridge,Lyft,17954
+220,Bronx,Spuyten Duyvil/Kingsbridge,Uber,47616
+221,Staten Island,Stapleton,Lyft,9170
+221,Staten Island,Stapleton,Uber,17190
+222,Brooklyn,Starrett City,Lyft,6355
+222,Brooklyn,Starrett City,Uber,15028
+223,Queens,Steinway,Lyft,28860
+223,Queens,Steinway,Uber,64687
+224,Manhattan,Stuy Town/Peter Cooper Village,Lyft,14622
+224,Manhattan,Stuy Town/Peter Cooper Village,Uber,31739
+225,Brooklyn,Stuyvesant Heights,Lyft,45049
+225,Brooklyn,Stuyvesant Heights,Uber,109120
+226,Queens,Sunnyside,Lyft,36467
+226,Queens,Sunnyside,Uber,77339
+227,Brooklyn,Sunset Park East,Lyft,12605
+227,Brooklyn,Sunset Park East,Uber,34514
+228,Brooklyn,Sunset Park West,Lyft,27832
+228,Brooklyn,Sunset Park West,Uber,66523
+229,Manhattan,Sutton Place/Turtle Bay North,Lyft,31995
+229,Manhattan,Sutton Place/Turtle Bay North,Uber,89289
+230,Manhattan,Times Sq/Theatre District,Lyft,56662
+230,Manhattan,Times Sq/Theatre District,Uber,192998
+231,Manhattan,TriBeCa/Civic Center,Lyft,58672
+231,Manhattan,TriBeCa/Civic Center,Uber,187318
+232,Manhattan,Two Bridges/Seward Park,Lyft,30016
+232,Manhattan,Two Bridges/Seward Park,Uber,65623
+233,Manhattan,UN/Turtle Bay South,Lyft,32296
+233,Manhattan,UN/Turtle Bay South,Uber,86037
+234,Manhattan,Union Sq,Lyft,52170
+234,Manhattan,Union Sq,Uber,166406
+235,Bronx,University Heights/Morris Heights,Lyft,19090
+235,Bronx,University Heights/Morris Heights,Uber,55867
+236,Manhattan,Upper East Side North,Lyft,33333
+236,Manhattan,Upper East Side North,Uber,117029
+237,Manhattan,Upper East Side South,Lyft,33282
+237,Manhattan,Upper East Side South,Uber,133454
+238,Manhattan,Upper West Side North,Lyft,28787
+238,Manhattan,Upper West Side North,Uber,73614
+239,Manhattan,Upper West Side South,Lyft,34201
+239,Manhattan,Upper West Side South,Uber,93003
+240,Bronx,Van Cortlandt Park,Lyft,3021
+240,Bronx,Van Cortlandt Park,Uber,8594
+241,Bronx,Van Cortlandt Village,Lyft,15346
+241,Bronx,Van Cortlandt Village,Uber,53320
+242,Bronx,Van Nest/Morris Park,Lyft,19126
+242,Bronx,Van Nest/Morris Park,Uber,52479
+243,Manhattan,Washington Heights North,Lyft,27616
+243,Manhattan,Washington Heights North,Uber,73990
+244,Manhattan,Washington Heights South,Lyft,42500
+244,Manhattan,Washington Heights South,Uber,101016
+245,Staten Island,West Brighton,Lyft,4305
+245,Staten Island,West Brighton,Uber,9411
+246,Manhattan,West Chelsea/Hudson Yards,Lyft,59657
+246,Manhattan,West Chelsea/Hudson Yards,Uber,177310
+247,Bronx,West Concourse,Lyft,22385
+247,Bronx,West Concourse,Uber,67116
+248,Bronx,West Farms/Bronx River,Lyft,11108
+248,Bronx,West Farms/Bronx River,Uber,32907
+249,Manhattan,West Village,Lyft,51759
+249,Manhattan,West Village,Uber,148792
+250,Bronx,Westchester Village/Unionport,Lyft,10897
+250,Bronx,Westchester Village/Unionport,Uber,33400
+251,Staten Island,Westerleigh,Lyft,4339
+251,Staten Island,Westerleigh,Uber,9898
+252,Queens,Whitestone,Lyft,6547
+252,Queens,Whitestone,Uber,16777
+253,Queens,Willets Point,Lyft,227
+253,Queens,Willets Point,Uber,735
+254,Bronx,Williamsbridge/Olinville,Lyft,23426
+254,Bronx,Williamsbridge/Olinville,Uber,61467
+255,Brooklyn,Williamsburg (North Side),Lyft,62046
+255,Brooklyn,Williamsburg (North Side),Uber,143453
+256,Brooklyn,Williamsburg (South Side),Lyft,51499
+256,Brooklyn,Williamsburg (South Side),Uber,118012
+257,Brooklyn,Windsor Terrace,Lyft,9857
+257,Brooklyn,Windsor Terrace,Uber,17043
+258,Queens,Woodhaven,Lyft,16848
+258,Queens,Woodhaven,Uber,44354
+259,Bronx,Woodlawn/Wakefield,Lyft,17129
+259,Bronx,Woodlawn/Wakefield,Uber,42862
+260,Queens,Woodside,Lyft,24997
+260,Queens,Woodside,Uber,58443
+261,Manhattan,World Trade Center,Lyft,19828
+261,Manhattan,World Trade Center,Uber,61139
+262,Manhattan,Yorkville East,Lyft,24082
+262,Manhattan,Yorkville East,Uber,52772
+263,Manhattan,Yorkville West,Lyft,31862
+263,Manhattan,Yorkville West,Uber,75753
+264,Unknown,NV,,0
+265,Unknown,,Lyft,352
+265,Unknown,,Uber,546
