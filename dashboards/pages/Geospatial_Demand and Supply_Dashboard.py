@@ -2,6 +2,10 @@ import streamlit as st
 import sqlite3
 import pandas as pd
 import plotly.express as px
+import geopandas as gpd
+import folium
+import numpy as np
+from streamlit_folium import folium_static
 
 # Apply custom CSS style for center-aligned titles
 st.markdown(
@@ -106,6 +110,103 @@ def plot_taxi_demand(connection):
     late-night activities, the overall demand diminishes during these non-peak hours.""")
 
 
+def get_top_taxi_locations(connection):
+    # Execute SQL query and load results into a DataFrame
+    query = '''
+        SELECT
+            tz.LocationID,
+            tz.Borough,
+            tz.Zone,
+            COUNT(*) AS TripCount
+        FROM
+            taxi_zone_lookup tz
+        JOIN
+            (
+                SELECT PULocationID
+                FROM yellow_tripdata
+                UNION ALL
+                SELECT PULocationID
+                FROM green_tripdata
+            ) AS combined_taxi
+        ON
+            tz.LocationID = combined_taxi.PULocationID
+        GROUP BY
+            tz.LocationID, tz.Borough, tz.Zone
+        ORDER BY
+            TripCount DESC;
+    '''
+    df = pd.read_sql_query(query, connection)
+
+    # Load the GeoJSON data.
+    geojson_data = gpd.read_file("../data/dataFiles/NYC Taxi Zones.geojson")
+    #geojson_data = gpd.read_file("/Users/chandanatj/streamlit-sales-dashboard/NYC Taxi Zones.geojson")
+
+
+    # NYC GeoJSON
+    nyc_geo = geojson_data
+
+    # Map
+    # Your Folium map creation code here
+    m = folium.Map(location=[40.7128, -74.0060], zoom_start=10)
+
+    # Choropleth for Taxi Demand
+    folium.Choropleth(
+        geo_data=nyc_geo,
+        name="choropleth",
+        data=df,  # Assuming df has 'Zone' and 'TripCount' columns
+        columns=["Zone", "TripCount"],
+        key_on="feature.properties.zone",  # Adjust this based on your GeoJSON structure
+        fill_color="YlGn",
+        fill_opacity=0.7,
+        line_opacity=0.2,
+        legend_name="Taxi Demand",
+    ).add_to(m)
+
+    # Layer Control
+    folium.LayerControl().add_to(m)
+
+    # Display the map
+    st.title(":car: Top Taxi Locations Dashboard")
+    st.markdown("## Taxi Demand Map")
+
+    # Check if the DataFrame is not None and not empty
+    if df is not None and not df.empty:
+        st.write("Areas with the highest demand for taxi services:")
+        st.markdown("### Taxi Demand Map")
+        st.markdown("This map displays the areas with the highest demand for taxi services.")
+        st.markdown("Zoom in and click on the map to explore specific zones.")
+        st.markdown("")
+
+        # Display the Folium map using st.write
+        folium_static(m, width=800, height=600)
+
+    else:
+        st.warning("No valid data available for the specified query.")
+
+    # Display DataFrames
+    st.subheader("Insights from Top Taxi Locations:")
+    st.dataframe(df)
+
+    # Display Key Insights
+    st.subheader("Key Insights:")
+    st.write(
+        """
+        1. **JFK Airport Dominates:** The location in Queens, specifically JFK Airport, 
+        stands out as the busiest taxi location with a significantly high number of trips (159,376).
+        
+        2. **Manhattan Hotspots:** Several locations in Manhattan, such as Upper East Side South, 
+        Midtown Center, and Upper East Side North , also show high trip counts.
+        
+        3. **LaGuardia Airport Presence:** LaGuardia Airport in Queens is another busy airport location, 
+        though not as busy as JFK. It still manages to secure a significant number of taxi trips (100,988).
+        
+        4. **Diverse Locations:** The map reveals less frequented locations, including those in Staten Island and some locations, 
+        such as Charleston/Tottenville in Staten Island, have very low trip counts (1).
+          """
+    )
+
+
+
 def main():
 
     st.markdown("<h1 class='title'>Geospatial Demand and Supply Dashboard</h1>", unsafe_allow_html=True)
@@ -115,6 +216,8 @@ def main():
 
     # Call the plot function with the database connection
     plot_taxi_demand(connection)
+
+    get_top_taxi_locations(connection)
 
     # Close the database connection
     connection.close()
