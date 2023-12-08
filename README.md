@@ -58,3 +58,14 @@ streamlit run path/to/Home.py
   - `trip_duration_predictor.ipynb` - Jupyter notebook for predicting trip duration.
   - `trip_fare_predictor.ipynb` - Jupyter notebook for predicting trip fare.
 - `README.md` - Markdown file providing information about the project.
+
+## Authors
+
+- **Arushi Arora**
+  - Email: [aa10350@nyu.edu](mailto:aa10350@nyu.edu)
+
+- **Saaketh Koundinya**
+  - Email: [sg7729@nyu.edu](mailto:sg7729@nyu.edu)
+
+- **Chandana**
+  - Email: [ct3002@nyu.edu](mailto:ct3002@nyu.edu)
