@@ -59,6 +59,10 @@ streamlit run path/to/Home.py
   - `trip_fare_predictor.ipynb` - Jupyter notebook for predicting trip fare.
 - `README.md` - Markdown file providing information about the project.
 
+## Demo Video
+
+The project demo can be found [here](https://drive.google.com/file/d/1jybadxa091sNBzx_iemDmFOSb-ch60zZ/view).
+
 ## Authors
 
 - **Arushi Arora**
