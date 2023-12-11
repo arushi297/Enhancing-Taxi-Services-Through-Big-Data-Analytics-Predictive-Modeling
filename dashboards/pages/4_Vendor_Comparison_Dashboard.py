@@ -25,12 +25,14 @@ def load_shapefile(filepath):
 
 
 def plot_avg_fare_per_distance(df_combined):
+    df_combined = df_combined[df_combined['Borough'] != 'EWR']
     st.markdown("<h2 class='title'>Comparing Taxi Services based on Average Fare Per Unit Distance</h2>", unsafe_allow_html=True)
     fig = px.bar(df_combined, x='Borough', y='AvgFarePerUnitDistance', color='Service', barmode='group')
     st.plotly_chart(fig)
 
 
 def plot_avg_trip_time_per_distance(df_combined):
+    df_combined = df_combined[df_combined['Borough'] != 'EWR']
     st.markdown("<h2 class='title'>Comparing Taxi Services based on Average Trip Time Per Unit Distance</h2>", unsafe_allow_html=True)
     fig = px.bar(df_combined, x='Borough', y='AvgTripTimePerUnitDistance', color='Service', barmode='group')
     st.plotly_chart(fig)

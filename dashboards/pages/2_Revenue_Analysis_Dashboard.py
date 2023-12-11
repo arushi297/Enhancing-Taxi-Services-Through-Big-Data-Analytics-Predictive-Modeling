@@ -119,7 +119,7 @@ def get_taxi_revenues(connection):
     st.dataframe(daily)
     st.markdown("""
     - The daily revenue trends show fluctuations throughout the month of September.
-    - The highest daily revenue was observed on September 7th, amounting to "$3,835,893.89."
+    - The highest daily revenue was observed on September 28th, amounting to "$3.85M"
     - There are noticeable peaks and troughs in daily revenue, indicating potential patterns related to specific days of the week or events.
     """)
 
@@ -131,8 +131,8 @@ def get_taxi_revenues(connection):
     st.dataframe(weekly)
     st.markdown("""
     - Weekly revenue data reveals varying performance across different weeks in September.
-    - Week starting on September 4th has the highest weekly revenue, totaling "$23,331,885.68."
-    - The subsequent weeks also display substantial revenue, with the last week of September reaching "$19,976,939.08."
+    - Week starting on September 11th has the highest weekly revenue, totaling "$24.03M"
+    - The subsequent weeks also display substantial revenue, with the last week of September reaching "$19.97M"
     """)
 
     # Create a line chart for weekly revenue trends
@@ -143,13 +143,13 @@ def get_taxi_revenues(connection):
     st.subheader("Monthly Revenue:")
     st.dataframe(monthly)
     st.markdown("""
-    - The total monthly revenue for September amounts to "$86,516,586.97."
+    - The total monthly revenue for September amounts to "$86.52M"
     - The monthly revenue is a sum of daily revenues and reflects the overall financial performance of the taxi service for the entire month.
     """)
 
 def get_revenue_vary(connection):
     revenue_by_location_query = '''
-    SELECT
+        SELECT
         tz.LocationID,
         tz.Borough,
         tz.Zone,
@@ -159,7 +159,7 @@ def get_revenue_vary(connection):
     JOIN
         (
             SELECT
-                PULocationID,
+                PULocationID AS LocationID,
                 total_amount
             FROM
                 yellow_tripdata
@@ -167,7 +167,23 @@ def get_revenue_vary(connection):
                 strftime('%Y-%m', tpep_pickup_datetime) = '2023-09'
             UNION ALL
             SELECT
-                PULocationID,
+                DOLocationID AS LocationID,
+                total_amount
+            FROM
+                yellow_tripdata
+            WHERE
+                strftime('%Y-%m', tpep_pickup_datetime) = '2023-09'
+            UNION ALL
+            SELECT
+                PULocationID AS LocationID,
+                total_amount
+            FROM
+                green_tripdata
+            WHERE
+                strftime('%Y-%m', lpep_pickup_datetime) = '2023-09'
+            UNION ALL
+            SELECT
+                DOLocationID AS LocationID,
                 total_amount
             FROM
                 green_tripdata
@@ -175,11 +191,12 @@ def get_revenue_vary(connection):
                 strftime('%Y-%m', lpep_pickup_datetime) = '2023-09'
         ) AS combined_taxi
     ON
-        tz.LocationID = combined_taxi.PULocationID
+        tz.LocationID = combined_taxi.LocationID
     GROUP BY
         tz.LocationID, tz.Borough, tz.Zone
     ORDER BY
-        TotalRevenue DESC;
+        TotalRevenue DESC
+    LIMIT 30;
     '''
 
     R_location = pd.read_sql_query(revenue_by_location_query, connection)
@@ -246,18 +263,18 @@ def get_revenue_vary(connection):
 
     R_day = pd.read_sql_query(revenue_by_dayweek_query, connection)
     
-    st.markdown("<h2 class='title'>Revenue vary by Location, Time of day, and Day of the week</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 class='title'>Revenue by Location, Time of day, and Day of the week</h2>", unsafe_allow_html=True)
 
     # Display bar chart for revenue by location
     st.subheader("Revenue by Location")
     st.write(
     "1. **Airport Dominance:** The highest revenue-generating location is the JFK airport in Queens, contributing approximately "
-    f'"{R_location["TotalRevenue"].max():,.0f}". This emphasizes the significant impact of airport-related services '
+    f'"${R_location["TotalRevenue"].max():,.0f}". This emphasizes the significant impact of airport-related services '
     "on overall taxi revenue."
     )
     st.write(
     "2. **LaGuardia's Significant Role:** Another airport in Queens, contributing around "
-    f'"{R_location.loc[1, "TotalRevenue"]:,.0f}", also plays a crucial role. While not as high as the first airport, '
+    f'"${R_location.loc[1, "TotalRevenue"]:,.0f}", also plays a crucial role. While not as high as the first airport, '
     "its presence underscores the importance of multiple airports in shaping taxi revenue."
     )
     st.write(
@@ -275,17 +292,17 @@ def get_revenue_vary(connection):
 
     st.write(
     "1. **Peak Hours Impact:** The hours between 17:00 (5 PM) and 19:00 (7 PM) demonstrate consistently high revenue, "
-    f"with the highest revenue observed at 17:00, totaling '{R_time['TotalRevenue'].max():,.2f}'. "
+    f"with the highest revenue observed at 17:00, totaling '${R_time['TotalRevenue'].max():,.2f}'. "
     "This period likely represents peak demand hours."
     )
     st.write(
     "2. **Morning Rush:** The early morning hours, particularly around 08:00 and 09:00, also contribute significantly "
-    f"to the total revenue, reaching '{R_time.loc[8:9, 'TotalRevenue'].sum():,.2f}'. This could be attributed "
+    f"to the total revenue, reaching '${R_time.loc[8:9, 'TotalRevenue'].sum():,.2f}'. This could be attributed "
     "to the morning rush hours."
     )
     st.write(
-    "3. **Late Night Decrease:** Revenue starts to decrease after 21:00 (9 PM), reaching the lowest point at 23:00 "
-    f"(11 PM) with total revenue of '{R_time.loc[23, 'TotalRevenue']:,.2f}'. Late-night demand appears to be lower."
+    "3. **Late Night Decrease:** Revenue starts to decrease after 21:00 (9 PM), reaching the lowest point at 4:00 "
+    f"(4 AM) with total revenue of '${R_time['TotalRevenue'].min():,.2f}'. Late-night demand appears to be lower."
     )
 
     
@@ -300,13 +317,13 @@ def get_revenue_vary(connection):
 
     # Display Revenue by Day of the Week
     day_of_week_mapping = {
-    '0': 'Monday',
-    '1': 'Tuesday',
-    '2': 'Wednesday',
-    '3': 'Thursday',
-    '4': 'Friday',
-    '5': 'Saturday',
-    '6': 'Sunday'
+    '0': 'Sunday',
+    '1': 'Monday',
+    '2': 'Tuesday',
+    '3': 'Wednesday',
+    '4': 'Thursday',
+    '5': 'Friday',
+    '6': 'Saturday'
     }
 
     R_day['DayOfWeek'] = R_day['DayOfWeek'].map(day_of_week_mapping)
@@ -314,48 +331,77 @@ def get_revenue_vary(connection):
     st.plotly_chart(fig_day_week)
 
     st.write(
-    "1. **Midweek Surge:** The middle of the week, specifically Tuesday (Day 1), Wednesday (Day 2), and Thursday (Day 3), "
-    f"shows a substantial increase in revenue, totaling around '{R_day.loc[1:3, 'TotalRevenue'].sum():,.2f}'. "
+    "1. **Midweek Surge:** The middle of the week, specifically Tuesday (Day 2), Wednesday (Day 3), and Thursday (Day 4), "
+    f"shows a substantial increase in revenue, totaling around '${R_day.loc[2:4, 'TotalRevenue'].sum():,.2f}'. "
     "This suggests higher demand during midweek days."
     )
     st.write(
-    "2. **Weekend Revenue:** Weekends, including Saturday (Day 5) and Sunday (Day 6), contribute significantly to the total revenue, "
-    f"reaching approximately '{R_day.loc[5:6, 'TotalRevenue'].sum():,.2f}'. The weekend demand appears to be strong."
+    "2. **Weekend Revenue:** Weekends, including Saturday (Day 6) and Sunday (Day 7), contribute significantly to the total revenue, "
+    f"reaching approximately '${R_day.loc[[0, 6], 'TotalRevenue'].sum():,.2f}'. The weekend demand appears to be strong."
     )
 
 def get_revenue_by_trip_type(connection):
     # Execute SQL query for airport and non-airport trips with RatecodeID IN (2, 3)
-    revenue_by_trip_type_query = '''
+    revenue_by_trip_type_query =  '''
+    WITH CombinedRevenue AS (
+        SELECT
+            tz.LocationID,
+            tz.Borough,
+            tz.Zone,
+            SUM(total_amount) AS TotalRevenue
+        FROM
+            taxi_zone_lookup tz
+        JOIN
+            (
+                SELECT
+                    PULocationID AS LocationID,
+                    total_amount
+                FROM
+                    yellow_tripdata
+                WHERE
+                    strftime('%Y-%m', tpep_pickup_datetime) = '2023-09'
+                UNION ALL
+                SELECT
+                    DOLocationID AS LocationID,
+                    total_amount
+                FROM
+                    yellow_tripdata
+                WHERE
+                    strftime('%Y-%m', tpep_pickup_datetime) = '2023-09'
+                UNION ALL
+                SELECT
+                    PULocationID AS LocationID,
+                    total_amount
+                FROM
+                    green_tripdata
+                WHERE
+                    strftime('%Y-%m', lpep_pickup_datetime) = '2023-09'
+                UNION ALL
+                SELECT
+                    DOLocationID AS LocationID,
+                    total_amount
+                FROM
+                    green_tripdata
+                WHERE
+                    strftime('%Y-%m', lpep_pickup_datetime) = '2023-09'
+            ) AS combined_taxi
+        ON
+            tz.LocationID = combined_taxi.LocationID
+        GROUP BY
+            tz.LocationID, tz.Borough, tz.Zone
+    )
+
     SELECT
         CASE
-            WHEN RatecodeID IN (2, 3) THEN 'Airport'
+            WHEN LOWER(Zone) LIKE '%airport%' THEN 'Airport'
             ELSE 'Non-Airport'
         END AS TripType,
-        SUM(total_amount) AS TotalRevenue
+        SUM(TotalRevenue) AS TotalRevenue
     FROM
-        (
-            SELECT
-                total_amount,
-                RatecodeID
-            FROM
-                yellow_tripdata
-            WHERE
-                strftime('%Y-%m', tpep_pickup_datetime) = '2023-09'
-                AND (RatecodeID IS NULL OR RatecodeID IN (2, 3))
-            UNION ALL
-            SELECT
-                total_amount,
-                RatecodeID
-            FROM
-                green_tripdata
-            WHERE
-                strftime('%Y-%m', lpep_pickup_datetime) = '2023-09'
-                AND (RatecodeID IS NULL OR RatecodeID IN (2, 3))
-        ) AS combined_taxi
+        CombinedRevenue
     GROUP BY
-        TripType
-    ORDER BY
-        TotalRevenue DESC;'''
+        TripType;
+    '''
 
     # Execute the query and load results into a DataFrame
     revenue_by_trip_type = pd.read_sql_query(revenue_by_trip_type_query, connection)
@@ -365,11 +411,11 @@ def get_revenue_by_trip_type(connection):
     st.markdown("<h2 class='title'>Revenue Comparison - Airport vs. Non-Airport Trips</h2>", unsafe_allow_html=True)
 
     st.markdown("""
-1. **Airport Dominance:** The data reveals that trips to and from airports significantly contribute to the overall taxi service revenue. The "Airport" category, encompassing rides associated with airports, generates substantial revenue, amounting to approximately "$11,456,650."
+1. **Airport Dominance:** The data reveals that trips to and from airports significantly contribute to the overall taxi service revenue. The "Airport" category, encompassing rides associated with airports, generates substantial revenue, amounting to approximately 15.2% which is $26.2M.
 
-2. **Non-Airport Revenue:** While airport trips dominate, non-airport trips also play a noteworthy role in contributing to taxi service revenue. The "Non-Airport" category, covering rides unrelated to airports, contributes a substantial amount, totaling around "$4,423,475."
+2. **Non-Airport Revenue:** Non-airport trips play a noteworthy role in contributing to taxi service revenue. The "Non-Airport" category, covering rides unrelated to airports, contributes around "$75M."
 
-3. **Revenue Disparity:** The revenue comparison highlights a significant disparity between airport and non-airport trips. Airport-related services contribute more than double the revenue compared to non-airport trips. This emphasizes the strategic importance of locations associated with airports in shaping the financial performance of the taxi service.
+3. **Revenue Disparity:** The revenue comparison highlights a significant contribution of Airport related trips in shaping the financial performance of the taxi service.
 """)
 
 

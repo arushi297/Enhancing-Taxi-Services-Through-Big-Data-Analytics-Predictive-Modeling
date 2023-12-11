@@ -22,7 +22,20 @@ def connect_to_database():
     # Connect to SQLite database
     connection = sqlite3.connect('nyc_taxi_database.db')
     return connection
+
+
+def passenger_count_trends(connection):
+    st.markdown("<h2 class='title'>Trends in Passenger Count</h2>", unsafe_allow_html=True)
+
+    sql_query = "SELECT passenger_count, COUNT(*) as num_rides FROM yellow_tripdata WHERE passenger_count BETWEEN 1 AND 4 GROUP BY passenger_count"
+
+    result = pd.read_sql_query(sql_query, connection)
+
+    fig = px.bar(result, x='passenger_count', y='num_rides', labels={'passenger_count': 'Passenger Count', 'num_rides': 'Number of Rides'},
+                 title='Number of Rides vs Passenger Count')
     
+    st.plotly_chart(fig)
+
 
 def ride_sharing_preference_map(connection):
     st.markdown("<h2 class='title'>Ride Sharing Preference based on Location</h2>", unsafe_allow_html=True)
@@ -292,6 +305,7 @@ def main():
     st.markdown("<h1 class='title'>Customer Behavior Dashboard</h1>", unsafe_allow_html=True)
 
     # Plotting each chart from the main function
+    passenger_count_trends(connection)
     ride_sharing_preference_map(connection)
     payment_type_distribution(connection)
     payment_type_by_location(connection)

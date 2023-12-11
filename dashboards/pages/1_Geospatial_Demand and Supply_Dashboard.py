@@ -120,7 +120,7 @@ def get_top_taxi_locations(connection):
             COUNT(*) AS TripCount
         FROM
             taxi_zone_lookup tz
-        JOIN
+        LEFT JOIN
             (
                 SELECT PULocationID
                 FROM yellow_tripdata
@@ -138,7 +138,7 @@ def get_top_taxi_locations(connection):
     df = pd.read_sql_query(query, connection)
 
     # Load the GeoJSON data.
-    geojson_data = gpd.read_file("../data/dataFiles/NYC Taxi Zones.geojson")
+    geojson_data = gpd.read_file("data/dataFiles/NYC_Taxi_Zones.geojson")
     #geojson_data = gpd.read_file("/Users/chandanatj/streamlit-sales-dashboard/NYC Taxi Zones.geojson")
 
 
