@@ -15,6 +15,14 @@ Once installed, you can run the application using the following command:
 streamlit run path/to/Home.py
 ```
 
+## Technologies Used
+
+- **Data Storage:** SQLite
+- **Data Processing:** PySpark, SparkSQL, SQL
+- **Interactive Dashboard and Visualization:** Streamlit, Plotly, Matplotlib
+- **Geospatial Analysis:** Geopandas, Folium
+- **Machine Learning:** MLlib
+
 ## Repository Structure
 
 - `dashboards/`
