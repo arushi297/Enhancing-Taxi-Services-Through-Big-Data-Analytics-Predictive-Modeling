@@ -61,7 +61,7 @@ streamlit run path/to/Home.py
 
 ## Demo Video
 
-The project demo can be found [here](https://drive.google.com/file/d/1jybadxa091sNBzx_iemDmFOSb-ch60zZ/view).
+The project demo can be found [here](https://drive.google.com/file/d/1RgqfifhoaMTZegTxa05FoXP6XksU_5KI/view?usp=sharing).
 
 ## Authors
 
